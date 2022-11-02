@@ -1,22 +1,24 @@
 html {
   box-sizing: border-box;
 }
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #eee;
+}
 #header {
   position: fixed;
   overflow: hidden;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   display: flex;
   margin: 0;
   align-items: center;
   padding: 0.5rem 0rem;
   justify-content: space-around;
 }
-#landingPage {
-  margin-top: 10vh;
-}
+
 #header img {
   width: 300px;
   height: auto;
@@ -35,12 +37,44 @@ html {
   justify-content: space-around;
   float: right;
 }
-.nav-link {
-  margin: 0 2em;
-}
 
 @media (max-width: 760px) {
   body {
     background: blue;
   }
 }
+
+/*End of Header Section*/
+
+/* Form email section */
+
+#form_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 30px;
+}
+#form_box h2 {
+  word-wrap: break-word;
+  margin-bottom: 2opx;
+}
+
+#form_box input[type="email"] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+#form_box input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  margin: 0.5rem 0;
+  height: 30px;
+  border: 0;
+  text-transform: uppercase;
+  background-color: #f1c40f;
+}
+
+/*End of Form email section */
