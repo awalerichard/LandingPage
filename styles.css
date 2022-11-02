@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+#header {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  padding: 0.5rem 0rem;
+  justify-content: space-around;
+}
+#landingPage {
+  margin-top: 10vh;
+}
+#header img {
+  width: 300px;
+  height: auto;
+}
+.nav-list li {
+  list-style: none;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: inherit;
+}
+.nav-list {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  float: right;
+}
+.nav-link {
+  margin: 0 2em;
+}
+
+@media (max-width: 760px) {
+  body {
+    background: blue;
+  }
+}
